@@ -1,0 +1,17 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.box{
+    background-image: url(media/Parallels-PSD-Responsive-Template.jpg);
+    width: 500px;
+    height: 400px;
+    background-size: cover;
+    background-position: top left;
+    margin-left: 50px;
+}
+.box:hover{
+     background-size: cover;
+    background-position:bottom left;
+    transition: 2s;
+}
